@@ -9,12 +9,12 @@ export default function Card({ searchCountry }) {
 
    return (
       <div className="flex justify-center items-center transform overflow-hidden duration-200 hover:scale-105 ">
-         <div className=" flex m-auto bg-opacity-50">
+         <div className=" flex m-auto bg-opacity-50 ">
             <CardDetails
                isOpen={isOpen}
                closeModal={() => setIsOpen(false)}
                searchCountry={searchCountry}
-               className="flex justify-center items-center z-10"
+               className="flex justify-center items-center z-20"
             />
          </div>
          <button onClick={() => setIsOpen(true)}>
