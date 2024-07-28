@@ -9,7 +9,7 @@ export default function Input({ onChange }) {
    };
 
    return (
-      <div className="relative flex h-12 pointer-events-auto  rounded-md shadow-sm ">
+      <div className="relative flex h-12 pointer-events-auto  rounded-md shadow-sm borde-black border-2 border-solid ">
          <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
             <span className=" sm:text-sm">
                <BsSearch />

@@ -26,7 +26,7 @@ export default function Home() {
 
    return (
       <div className="flex m-auto items-center justify-center ">
-         <main className="flex min-h-screen  flex-col items-center text-black w-[1440px] bg-slate-600 dark:bg-slate-900 dark:text-white">
+         <main className="flex min-h-screen  flex-col items-center text-black w-[1440px] bg-white dark:bg-slate-900 dark:text-white">
             <div className="w-[100%]">
                <Nav />
             </div>
