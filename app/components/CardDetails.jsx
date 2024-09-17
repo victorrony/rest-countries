@@ -38,7 +38,7 @@ export default function CardDetails({ searchCountry, isOpen, closeModal }) {
                               className="bg-blue-500 hover:bg-blue-700  p-2 rounded-full"
                               onClick={closeModal}
                            >
-                              X
+                              <Image src="/close.svg" alt="close" width={20} height={20} className="object-contain" />
                            </button>
                         </div>
 

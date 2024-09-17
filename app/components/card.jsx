@@ -18,7 +18,7 @@ export default function Card({ searchCountry }) {
             />
          </div>
          <button onClick={() => setIsOpen(true)}>
-            <div className="flex flex-col items-start w-60 h-96 bg-slate-400 hover:bg-slate-100  dark:bg-slate-900 border-2 rounded-md shadow-2xl ">
+            <div className="flex flex-col items-start w-72 h-96 bg-slate-400 hover:bg-slate-100  dark:bg-slate-900 border-2 rounded-md shadow-2xl ">
                <div className="w-full h-44 relative">
                   <img
                      src={searchCountry.flag}

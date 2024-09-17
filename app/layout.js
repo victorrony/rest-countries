@@ -4,7 +4,7 @@ import { Providers } from "./theme/provider";
 
 export default function RootLayout({ children }) {
    return (
-      <html lang="en" class="dark">
+      <html lang="en" className="dark">
          <body className="mx- ">
             <Providers>
                {" "}
